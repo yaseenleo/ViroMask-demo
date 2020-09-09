@@ -1,0 +1,129 @@
+.logo-text{
+    font-size: 12px;
+    text-transform: uppercase;
+    background: red;
+    color: white;
+    /* word-break: break-word; */
+    padding: 1em;
+    line-height: 0px;
+    white-space: pre-line;
+}
+
+.top-nav .nav-item{
+    font-size: 14px;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
+.nav-btn button{
+    border: none;
+    border-radius: 3px;
+    color: #818181;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #CC1236;
+}
+
+span.cart-icon{
+    background: url(../image/shopping-cart.svg) no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 18px;
+    width: 30px;
+    color:#818181 !important;
+}
+
+span.mask-icon{
+    background: url(../image/medical-mask\ \(2\).svg) no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 18px;
+    width: 30px;
+    color:#818181 !important;
+}
+
+.mask-section{
+    padding-bottom: 2em;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.hdr-social-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.hdr-social-list li {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.hdr-social-list li> a{
+    color: white !important;   
+}
+.mask-text-sec{
+    background-color: #CC1236;
+    color: white;
+    text-align: center;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+}
+
+.mask-sec-img img{
+    width: 410px;
+    height: 362px;
+}
+
+.mask-text-sec h2{
+    text-transform: uppercase;
+    font-size: 2.2em;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.mask-section p{
+    padding-left: 25%;
+    font-size: 1.3em;
+}
+
+.mask-section p>span{
+    background-color: red;
+    height: 1em;
+    margin-top: 0.5em;
+}
+
+.mask-sec-btn > button{
+    text-transform: uppercase;
+    border-radius: 3px !important;
+    padding: 0.5em 1.5em;
+    font-weight: 600;
+}
+
+@media (max-width: 575.98px) { 
+    .mask-text-sec h2{
+        font-size: large;
+    }
+
+    .mask-sec-img{
+        margin-left: 0.8em;
+        margin-right: 0.8em;
+        margin-top: 1em;
+    }
+ }
+
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+     .mask-text-sec h2{
+        font-size: xx-large;
+    }
+  }
