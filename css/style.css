@@ -16,24 +16,27 @@ body{
     font-family: Gotham;
 }
 .logo-text{
+    position: absolute;
+    bottom: 0;
+    left: 177px;
     font-size: 12px;
     text-transform: uppercase;
-    background: red;
+    background: #CC1236;
     color: white;
-    /* word-break: break-word; */
     padding: 1em;
     line-height: 0px;
     white-space: pre-line;
+    line-height: 14px;
 }
 
 .top-nav .nav-item{
     font-size: 14px;
 }
 
-.top-nav .nav-item .active{
+/* .top-nav .nav-item .active > a{
     color: #CC1236 !important;
     font-weight: 400;
-}
+} */
 
 .nav-item:hover::after {
     width: 100%;
