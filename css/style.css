@@ -248,17 +248,27 @@ span.mask-icon{
     .logo-text{
         line-height: 13px;
     }
+
+    .mask-text-sec h2{
+        font-size: 1.5em;
+    }
   }
 
   @media (min-width: 768px) and (max-width: 991.98px) { 
     .logo-text{
         line-height: 13px;
     }
+    .mask-text-sec h2{
+        font-size: 1.8em;
+    }
    }
 
   @media (min-width: 992px) and (max-width: 1199.98px) { 
     .top-nav .nav-item{
         font-size: 11px;
+    }
+    .mask-text-sec h2{
+        font-size: 1.8em;
     }
     
    }
