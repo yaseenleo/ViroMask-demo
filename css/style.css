@@ -1,3 +1,20 @@
+@font-face{
+    font-family: Gotham;
+    src: url("../fonts/webfonts/Gotham-Font/Gotham-Light.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: Gotham Bold;
+    src: url("../fonts/webfonts/Gotham-Font/Gotham-Bold.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Gotham;
+}
 .logo-text{
     font-size: 12px;
     text-transform: uppercase;
@@ -13,6 +30,11 @@
     font-size: 14px;
 }
 
+.top-nav .nav-item .active{
+    color: #CC1236 !important;
+    font-weight: 400;
+}
+
 .nav-item:hover::after {
     width: 100%;
 }
@@ -23,6 +45,10 @@
     color: #818181;
     margin-left: 0.5em;
     margin-right: 0.5em;
+}
+
+.nav-btn button:first-child{
+    color: white;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -54,6 +80,7 @@ span.mask-icon{
     padding-bottom: 2em;
     padding-left: 0;
     padding-right: 0;
+    background-color: #f7f7f7;
 }
 
 .hdr-social-list {
@@ -61,6 +88,7 @@ span.mask-icon{
     margin: 0;
     padding: 0;
     color: white;
+    font-size: 14px;
 }
 
 .hdr-social-list li {
@@ -83,24 +111,19 @@ span.mask-icon{
 .mask-sec-img img{
     width: 410px;
     height: 362px;
+    z-index: 10;
 }
 
 .mask-text-sec h2{
+    font-family: Gotham Bold;
     text-transform: uppercase;
     font-size: 2.2em;
-    font-weight: 600;
     letter-spacing: 2px;
 }
 
 .mask-section p{
     padding-left: 25%;
     font-size: 1.3em;
-}
-
-.mask-section p>span{
-    background-color: red;
-    height: 1em;
-    margin-top: 0.5em;
 }
 
 .mask-sec-btn > button{
@@ -110,6 +133,39 @@ span.mask-icon{
     font-weight: 600;
 }
 
+.mask-sec-img {
+    position: relative;
+ }
+.mask-sec-img p{
+    position: absolute;
+    font-size: 1.3em;
+    height: 100px;
+    background: #CC1236;
+    z-index: 2;
+    width: 114px;
+    left: 22%;
+    color: white;
+    text-transform: uppercase;
+    white-space: pre-line;
+    text-align: left;
+    font-weight: 600;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    line-height: 24px;
+    padding-top: 0.3em;
+}
+
+#kids{
+    background-color: white;
+    color: #818181;
+}
+
+.mask-img {
+    position: relative;
+    margin-top: 36px;
+    text-align: center;
+    z-index: 20;
+}
 @media (max-width: 575.98px) { 
     .mask-text-sec h2{
         font-size: large;
