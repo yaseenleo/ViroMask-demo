@@ -69,6 +69,45 @@ span.cart-icon{
     color:#818181 !important;
 }
 
+.twitter-icon{
+    background: url(../image/twitter\ \(1\).svg) no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 12px;
+    width: 17px;
+    text-align: center;
+}
+
+.facebook-icon{
+    background: url(../image/facebook\ \(1\).svg) no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 14px;
+    text-align: center;
+    width: 10px;
+}
+
+.instagram-icon{
+    background: url(../image/instagram\ \(2\).svg) no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 12px;
+    text-align: center;
+    width: 17px;
+}
+
+.youtube-icon{
+    background: url(../image/youtube\ \(1\).svg) no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 12px;
+    text-align: center;
+    width: 20px;
+}
 span.mask-icon{
     background: url(../image/medical-mask\ \(2\).svg) no-repeat top left;
     background-size: contain;
