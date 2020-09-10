@@ -58,7 +58,22 @@ body{
 .navbar-light .navbar-nav .nav-link:hover {
     color: #CC1236;
 }
-
+.navbar-nav > .active > a {
+    color: #CC1236 !important;
+    background-color: transparent;
+    font-weight: 600 !important; 
+  }
+  .nav-item > a:hover {
+    color: #CC1236;
+  }
+  .nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #CC1236;
+    transition: 0.2s;
+}
 span.cart-icon{
     background: url(../image/shopping-cart.svg) no-repeat top left;
     background-size: contain;
